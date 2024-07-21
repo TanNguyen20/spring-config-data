@@ -5,7 +5,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     serviceUrl:
-      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:9090/eureka}
+      defaultZone: ${EUREKA_SERVER_ADDRESS:https://compatible-finch-tannguyen-14536f90.koyeb.app//eureka}
 
 okta:
   oauth2:
